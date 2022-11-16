@@ -1,5 +1,5 @@
 body{
-    background-image: url("green_matrix_code_world_map-wallpaper-7680x4800.jpg") ;
+    background-image: url("images/green_matrix_code_world_map-wallpaper-7680x4800.jpg") ;
     /* background-size: cover; */
     background-repeat: no-repeat;
     color:whitesmoke
@@ -48,7 +48,7 @@ h1{
     left: 50px;
     background-color: green;
     min-width: 170px;
-    height: 200px;
+    height: 155px;
     width: 200px;
     color:red;
     text-align: start;
