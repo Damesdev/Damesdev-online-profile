@@ -66,3 +66,8 @@ footer{
     background-color: green;
     margin: 12px;
 }
+
+#pos_description{
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
