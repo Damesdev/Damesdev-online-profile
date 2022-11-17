@@ -3,31 +3,15 @@ body{
     /* background-size: cover; */
     background-repeat: no-repeat;
     color:whitesmoke;
-}
-
-div {
-    display: flex;
-    justify-content:space-evenly;
-}
-
-#transparent_box {
-    /* background-color: red;
-    border: 4mm ridge rgba(211, 220, 50, .6); */
-    /* height:85vh; 
-    width:70vh; */
-}
-
-#paragraph_information_background{
-    /* background-color: green;
-    border: 4mm ridge yellow;
-    height:90vh; 
-    width:70vh; */
-    text-align: center;
+    position: relative;
+    top:0;
+    min-height: 100vh;
 }
 
 #quote{
-    font-size: 11vh;
+    font-size: 70px;
     text-align: center;
+    padding-bottom: 50px ;
 }
 
 h1{
@@ -36,9 +20,9 @@ h1{
 }
 
 footer{
-    position:static;
-    bottom: 0vh;
-    left: 47vw;
+    position:absolute;
+    bottom: -80px;
+    width: 100%;
     text-align: center;
 }
 
@@ -47,9 +31,9 @@ footer{
     bottom: 80%;
     left: 50px;
     background-color: green;
-    min-width: 170px;
-    height: 155px;
-    width: 200px;
+    min-width: 100px;
+    height: 125px;
+    width: 160px;
     color:red;
     text-align: start;
 }
