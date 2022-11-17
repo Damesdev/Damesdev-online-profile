@@ -47,9 +47,9 @@ footer{
     bottom: 80%;
     left: 50px;
     background-color: green;
-    min-width: 170px;
-    height: 155px;
-    width: 200px;
+    min-width: 100px;
+    height: 125px;
+    width: 160px;
     color:red;
     text-align: start;
 }
