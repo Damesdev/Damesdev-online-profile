@@ -10,21 +10,6 @@ div {
     justify-content:space-evenly;
 }
 
-#transparent_box {
-    /* background-color: red;
-    border: 4mm ridge rgba(211, 220, 50, .6); */
-    /* height:85vh; 
-    width:70vh; */
-}
-
-#paragraph_information_background{
-    /* background-color: green;
-    border: 4mm ridge yellow;
-    height:90vh; 
-    width:70vh; */
-    text-align: center;
-}
-
 p{
     word-break: break-all;
     white-space: normal;
@@ -69,4 +54,9 @@ footer{
     display:flex;
     flex-direction: column;
     text-align: center;
+}
+
+#position{
+    background-color: white;
+    margin: 12px;
 }
