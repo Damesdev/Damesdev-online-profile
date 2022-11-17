@@ -2,7 +2,8 @@ body{
     background-image: url("images/green_matrix_code_world_map-wallpaper-7680x4800.jpg") ;
     /* background-size: cover; */
     background-repeat: no-repeat;
-    color:whitesmoke
+    color:whitesmoke;
+    height: fit-content;
 }
 
 div {
@@ -11,7 +12,7 @@ div {
 }
 
 p{
-    word-break: break-all;
+    /* word-break: break-all; */
     white-space: normal;
 }
 
@@ -21,11 +22,11 @@ h1{
 }
 
 footer{
-    position:sticky;
+    position:static;
     bottom: 0;
     width: 100%;
     text-align: center;
-    margin-top: 100vh;
+    margin-top: 5vh;
 }
 
 #website_Navigation{
