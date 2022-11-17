@@ -56,6 +56,7 @@ footer{
     display:flex;
     flex-direction: row;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #proj{
@@ -63,6 +64,7 @@ footer{
     margin: 12px;
     font-size: 50px;
     overflow-wrap: break-word;
+    width: min-content;
 }
 
 img {
