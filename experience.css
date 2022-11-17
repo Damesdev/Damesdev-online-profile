@@ -25,9 +25,9 @@ div {
     text-align: center;
 }
 
-#quote{
-    font-size: 11vh;
-    text-align: center;
+p{
+    word-break: break-all;
+    white-space: normal;
 }
 
 h1{
@@ -63,4 +63,10 @@ footer{
 #page:hover{
     color: lime;
     text-decoration: underline;
+}
+
+#jobs{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
 }
