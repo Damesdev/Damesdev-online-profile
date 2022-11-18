@@ -4,14 +4,14 @@ body{
     background-repeat: no-repeat;
     color:whitesmoke;
     position: relative;
-    top:0;
-    min-height: 100vh;
 }
 
 #quote{
     font-size: 70px;
     text-align: center;
     padding-bottom: 50px ;
+    min-height: 60vh;
+    height:max-content;
 }
 
 h1{
@@ -20,8 +20,8 @@ h1{
 }
 
 footer{
-    position:absolute;
-    bottom: -80px;
+    position: static;
+    bottom: 0;
     width: 100%;
     text-align: center;
 }
