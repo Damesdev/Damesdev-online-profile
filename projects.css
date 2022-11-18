@@ -86,5 +86,11 @@ img {
         height:min-content;
         width: max-content;
     }
-   
+
+    #page{
+        color:white;
+        text-decoration: none;
+        font-size: .75rem;
+        margin-right: 15px;
+    }
 }
